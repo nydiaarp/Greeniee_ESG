@@ -1,0 +1,145 @@
+# 🌱 Greenie: ESG Sustainability Assistant
+
+<p align="center">
+  <img src="greenie_stars.png" width="180">
+</p>
+
+## ✨ About the Project
+
+**Greenie** is an interactive ESG sustainability assistant built in Python that helps users estimate a company’s environmental impact in a fun and engaging way.
+
+Instead of using a boring calculator, Greenie acts like a small sustainability companion 🌱 that reacts emotionally to environmental data and provides recommendations for improvement.
+
+The program analyzes:
+
+⚡ Electricity consumption  
+🚚 Transportation distance  
+🗑️ Waste production  
+
+Based on the results, Greenie:
+
+✅ Calculates an estimated carbon footprint  
+✅ Determines a sustainability risk level  
+✅ Changes mood depending on environmental impact  
+✅ Gives sustainability recommendations  
+
+---
+
+## 🌎 Why I Built This
+
+As sustainability and ESG practices become increasingly important for businesses, I wanted to create a beginner-friendly tool that combines:
+
+- **Python programming**
+- **Business sustainability**
+- **Environmental awareness**
+- **Interactive design**
+
+Greenie transforms ESG analysis into a more approachable and engaging experience.
+
+---
+
+## 🧠 How It Works
+
+The user enters environmental information:
+
+- Electricity use (kWh)
+- Transportation distance (km)
+- Waste production (kg)
+
+Greenie then analyzes the data and generates:
+
+```text
+Carbon footprint estimation
+↓
+Risk classification
+↓
+Mood change 🌱
+↓
+Recommendations
+```
+
+### Greenie moods
+
+😄 **Happy Greenie** → Low impact  
+😟 **Concerned Greenie** → Medium impact  
+😭 **Stressed Greenie** → High impact  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**
+- **Tkinter** (visual interface)
+- **Pillow (PIL)** (image handling)
+
+---
+
+## 🚀 How to Run Greenie
+
+### 1. Clone or download the repository
+
+```bash
+git clone https://github.com/nydiaarp/Greeniee_ESG
+```
+
+or click:
+
+**Code → Download ZIP**
+
+---
+
+### 2. Install dependencies
+
+Install Pillow:
+
+```bash
+pip install pillow
+```
+
+---
+
+### 3. Run the project
+
+```bash
+python greenie.py
+```
+
+or on Windows:
+
+```bash
+py greenie.py
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+Greenie_Project
+│── greenie.py
+│── greenie_stars.png
+│── greenie_ush.png
+│── greenie_sad.png
+│── README.md
+```
+
+---
+
+## 🌱 Future Improvements
+
+In future versions, Greenie could include:
+
+- ESG score out of 100
+- Sustainability graphs
+- Voice interaction
+- Personalized company reports
+- More environmental indicators
+
+---
+
+## 👩‍💻 Author
+
+**Nydia Almudena Rojas Pompa**  
+Code in Place 2026 
+
+*"Making sustainability a little more fun, one Greenie at a time 🌱"*
