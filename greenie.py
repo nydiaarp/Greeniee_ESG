@@ -59,7 +59,7 @@ def analyze():
 
     # ← Aquí cambia la imagen según el resultado
     try:
-        new_photo = load_image(image_file, size=(200, 200))
+        new_photo = load_image(image_file, size=(150, 150))
         mascot.config(image=new_photo)
         mascot.image = new_photo  # Guarda referencia para que no se borre
     except Exception as e:
